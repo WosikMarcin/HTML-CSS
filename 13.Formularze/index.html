@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+  </head>
+  <body>
+    <form>
+      <label for="imie"><b>Your Name:</b></label><br>
+      <input type="text" name="imie" id="imie"
+        placeholder="Your name"><br>
+      <label for="address"><b>Your E-mail Address:</b></label><br>
+      <input type="email" name="address" id="address"
+        placeholder="Your e-mail"><br>
+      <label for="message"><b>Your message:</b></label><br>
+      <textarea cols="70" rows="15" name="message" id="message" placeholder="Please describe your question or comment "></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+    <br>
+    <br>
+    <h3>Car rental</h3>
+    <form>
+      <fieldset>
+        <legend>Choose car class</legend>
+        <label>
+        <input type="radio" name="car" value="1">mini<br>
+        <input type="radio" name="car" value="2">economy<br>
+        <input type="radio" name="car" value="3">compact<br>
+        <input type="radio" name="car" value="4">SUV<br>
+        <input type="radio" name="car" value="5">VAN<br>
+        </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Choose optional equipment</legend>
+        <label>
+        <input type="checkbox" name="childSeat">child seat<br>
+        </label>
+        <label>
+        <input type="checkbox" name="GPS" checked>GPS<br>
+        </label>
+        <label>
+        <input type="checkbox" name="DVD">DVD player<br>
+        </label>     
+      </fieldset>
+      <br>
+      <label for="date">Rental start date</label>
+      <input type="date" name="date" placeholder="rrrr-mm-dd"><br>
+      <label for="number">Number of days</label>
+      <input type="number" name="number"><br> 
+      <label for="password">Your password</label>
+      <input type="password" name="password"><br> 
+      <input type="submit" value="Order now!">  
+    </form>
+  </body>
+</html>

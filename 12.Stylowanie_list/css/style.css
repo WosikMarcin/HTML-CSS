@@ -1,0 +1,10 @@
+ul {
+  list-style-type: square;
+}
+
+.menu {
+  color: #116493;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 10px;
+}

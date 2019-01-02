@@ -1,0 +1,47 @@
+.first {
+  background-color: #b2b2b2;
+  background-color: rgba(115, 210, 22, .4);
+}
+
+.second {
+  background-color: #73d216;
+  opacity: 0.4;
+}
+
+
+/*
+efektem zastosowania opacity jest jest przezroczystosc calego diva - jego zawartosci i tła
+dla zapisu rgba otrzymujemy przezroczystosc tla, przezroczystosc zawartosci diva nie ulega 
+zmianie 
+*/
+
+.third {
+  background: rgba(235, 253, 255, 1);
+  background: -moz-linear-gradient(top, rgba(235, 253, 255, 1) 0%, rgba(78, 196, 217, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235, 253, 255, 1)), color-stop(100%, rgba(78, 196, 217, 1)));
+  background: -webkit-linear-gradient(top, rgba(235, 253, 255, 1) 0%, rgba(78, 196, 217, 1) 100%);
+  background: -o-linear-gradient(top, rgba(235, 253, 255, 1) 0%, rgba(78, 196, 217, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(235, 253, 255, 1) 0%, rgba(78, 196, 217, 1) 100%);
+  background: linear-gradient(to bottom, rgba(235, 253, 255, 1) 0%, rgba(78, 196, 217, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebfdff', endColorstr='#4ec4d9', GradientType=0);
+}
+
+.fourth {
+  background-color: #3465a4;
+  background-image: url("../images/frontend-backend.jpg");
+}
+
+.fifth {
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/frontend-backend.jpg");
+  background-repeat: no-repeat;
+}
+
+.sixth {
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/frontend-backend.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
